@@ -1,11 +1,6 @@
 <script>
-    import Main from './components/Main.svelte'
+    import Router, { link } from 'svelte-spa-router'
+    import routes from './router/index.js'
 </script>
 
-<Main></Main>
-
-<style>
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
-</style>
+<Router {routes} />

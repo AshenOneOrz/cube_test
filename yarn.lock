@@ -698,6 +698,11 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
+regexparam@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/regexparam/-/regexparam-2.0.0.tgz#059476767d5f5f87f735fc7922d133fd1a118c8c"
+  integrity sha512-gJKwd2MVPWHAIFLsaYDZfyKzHNS4o7E/v8YmNf44vmeV2e4YfVoDToTOKTvE7ab68cRJ++kLuEXJBaEeJVt5ow==
+
 resolve@^1.1.7, resolve@^1.22.0:
   version "1.22.1"
   resolved "https://registry.npmmirror.com/resolve/-/resolve-1.22.1.tgz#27cb2ebb53f91abb49470a928bba7558066ac177"
@@ -791,6 +796,13 @@ svelte-preprocess@^4.10.7:
     magic-string "^0.25.7"
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
+
+svelte-spa-router@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npmmirror.com/svelte-spa-router/-/svelte-spa-router-3.2.0.tgz#fae3311d292451236cb57131262406cf312b15ee"
+  integrity sha512-igemo5Vs82TGBBw+DjWt6qKameXYzNs6aDXcTxou5XbEvOjiRcAM6MLkdVRCatn6u8r42dE99bt/br7T4qe/AQ==
+  dependencies:
+    regexparam "2.0.0"
 
 svelte@^3.44.0:
   version "3.48.0"
