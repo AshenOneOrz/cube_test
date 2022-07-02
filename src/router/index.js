@@ -1,8 +1,8 @@
 // router/index.js
-import Main from '../views/Main.svelte'
+import Index from '../views/Index.svelte'
 
 export default {
-  '/': Main,
+  '/': Index,
 }
 
 // App.svelte
